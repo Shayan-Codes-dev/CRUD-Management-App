@@ -1,0 +1,173 @@
+/* ----------------- Global ----------------- */
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* ----------------- Navbar ----------------- */
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* ----------------- Table ----------------- */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+table th,
+table td {
+  vertical-align: middle !important;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(220, 171, 93, 0.1);
+}
+
+/* ----------------- Profile Images ----------------- */
+img.rounded-circle {
+  object-fit: cover;
+}
+
+/* ----------------- Buttons ----------------- */
+.btn-rounded {
+  border-radius: 50px;
+}
+
+/* ----------------- Form Inputs ----------------- */
+input.form-control,
+select.form-select,
+textarea.form-control {
+  border-radius: 50px;
+  box-shadow: none !important;
+  padding: 0.6rem 1rem;
+}
+
+input.form-control:focus,
+select.form-select:focus,
+textarea.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 171, 93, 0.25);
+  border-color: #dcab5d;
+}
+
+/* ----------------- Card ----------------- */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* ----------------- Skeleton Loading ----------------- */
+.skeleton-row > td {
+  padding: 0.5rem !important;
+}
+
+.skeleton-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #e0e0e0;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-text {
+  height: 15px;
+  width: 100px;
+  border-radius: 4px;
+  display: inline-block;
+  background-color: #e0e0e0;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-button {
+  height: 25px;
+  width: 60px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #e0e0e0;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #f0f0f0;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}
+
+/* ----------------- Badges ----------------- */
+.badge {
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  padding: 0.35em 0.65em;
+}
+
+/* ----------------- Footer ----------------- */
+footer {
+  background-color: #fff;
+  color: #6c757d;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.05);
+  border-top: 1px solid #dee2e6;
+}
+/* Additional Custom Styles */
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+/* Skeleton Styles */
+.skeleton-row > td {
+  padding: 0.5rem !important;
+}
+
+.skeleton-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-text {
+  height: 15px;
+  width: 100px;
+  border-radius: 4px;
+  display: inline-block;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-button {
+  height: 25px;
+  width: 60px;
+  border-radius: 20px;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Shimmer Effect */
+@keyframes shimmer {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #f0f0f0;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}
